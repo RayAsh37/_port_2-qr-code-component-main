@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  width: 380px;
+  align-self: center;
+  margin-top: 5rem;
+}
+
+.image-container {
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  margin: 15px;
+  background-image: url('../images/image-qr-code.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-container {
+  width: 350px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.heading h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+
+.para p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.attribution {
+  margin-top: 5rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
